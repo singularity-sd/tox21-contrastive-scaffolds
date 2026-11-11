@@ -1,0 +1,7 @@
+split,partition,compounds,scaffolds,test_seed,validation_seed,overlap_train_validation,overlap_train_test,overlap_validation_test
+Split 1,train,5955,3065,2026,2054,0,0,0
+Split 1,validation,776,419,2026,2054,0,0,0
+Split 1,test,1092,615,2026,2054,0,0,0
+Split 2,train,6179,3065,2028,2056,0,0,0
+Split 2,validation,707,419,2028,2056,0,0,0
+Split 2,test,937,615,2028,2056,0,0,0

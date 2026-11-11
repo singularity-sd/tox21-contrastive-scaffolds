@@ -1,0 +1,2 @@
+category,message
+data_quality,Excluded 8 rows with SMILES that RDKit could not parse or sanitize.

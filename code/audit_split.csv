@@ -1,0 +1,4 @@
+split,compounds,scaffolds,unique_canonical_smiles
+train,5955,3065,5955
+validation,776,419,776
+test,1092,615,1092

@@ -1,0 +1,448 @@
+{
+  "forecast_id": "T3v3-2026-0102",
+  "dataset": "Tox21",
+  "n_raw": 7831,
+  "n_valid": 7823,
+  "n_invalid_excluded": 8,
+  "n_scaffolds": 4099,
+  "n_tasks": 12,
+  "tasks": [
+    "NR-AR",
+    "NR-AR-LBD",
+    "NR-AhR",
+    "NR-Aromatase",
+    "NR-ER",
+    "NR-ER-LBD",
+    "NR-PPAR-gamma",
+    "SR-ARE",
+    "SR-ATAD5",
+    "SR-HSE",
+    "SR-MMP",
+    "SR-p53"
+  ],
+  "split": "Grouped by Bemis-Murcko scaffold; train/test seed 2028; validation seed 2056; all scaffold groups kept together; invalid SMILES excluded before splitting",
+  "split_counts": [
+    {
+      "split": "train",
+      "compounds": 6179,
+      "scaffolds": 3065,
+      "unique_canonical_smiles": 6179
+    },
+    {
+      "split": "validation",
+      "compounds": 707,
+      "scaffolds": 419,
+      "unique_canonical_smiles": 707
+    },
+    {
+      "split": "test",
+      "compounds": 937,
+      "scaffolds": 615,
+      "unique_canonical_smiles": 937
+    }
+  ],
+  "support_per_task": [
+    {
+      "split": "train",
+      "task": "NR-AR",
+      "n_labeled": 5747,
+      "n_positive": 216,
+      "n_negative": 5531
+    },
+    {
+      "split": "train",
+      "task": "NR-AR-LBD",
+      "n_labeled": 5366,
+      "n_positive": 162,
+      "n_negative": 5204
+    },
+    {
+      "split": "train",
+      "task": "NR-AhR",
+      "n_labeled": 5195,
+      "n_positive": 612,
+      "n_negative": 4583
+    },
+    {
+      "split": "train",
+      "task": "NR-Aromatase",
+      "n_labeled": 4648,
+      "n_positive": 219,
+      "n_negative": 4429
+    },
+    {
+      "split": "train",
+      "task": "NR-ER",
+      "n_labeled": 4920,
+      "n_positive": 585,
+      "n_negative": 4335
+    },
+    {
+      "split": "train",
+      "task": "NR-ER-LBD",
+      "n_labeled": 5529,
+      "n_positive": 243,
+      "n_negative": 5286
+    },
+    {
+      "split": "train",
+      "task": "NR-PPAR-gamma",
+      "n_labeled": 5123,
+      "n_positive": 134,
+      "n_negative": 4989
+    },
+    {
+      "split": "train",
+      "task": "SR-ARE",
+      "n_labeled": 4655,
+      "n_positive": 708,
+      "n_negative": 3947
+    },
+    {
+      "split": "train",
+      "task": "SR-ATAD5",
+      "n_labeled": 5601,
+      "n_positive": 197,
+      "n_negative": 5404
+    },
+    {
+      "split": "train",
+      "task": "SR-HSE",
+      "n_labeled": 5138,
+      "n_positive": 288,
+      "n_negative": 4850
+    },
+    {
+      "split": "train",
+      "task": "SR-MMP",
+      "n_labeled": 4632,
+      "n_positive": 699,
+      "n_negative": 3933
+    },
+    {
+      "split": "train",
+      "task": "SR-p53",
+      "n_labeled": 5394,
+      "n_positive": 319,
+      "n_negative": 5075
+    },
+    {
+      "split": "validation",
+      "task": "NR-AR",
+      "n_labeled": 645,
+      "n_positive": 54,
+      "n_negative": 591
+    },
+    {
+      "split": "validation",
+      "task": "NR-AR-LBD",
+      "n_labeled": 599,
+      "n_positive": 48,
+      "n_negative": 551
+    },
+    {
+      "split": "validation",
+      "task": "NR-AhR",
+      "n_labeled": 579,
+      "n_positive": 82,
+      "n_negative": 497
+    },
+    {
+      "split": "validation",
+      "task": "NR-Aromatase",
+      "n_labeled": 494,
+      "n_positive": 39,
+      "n_negative": 455
+    },
+    {
+      "split": "validation",
+      "task": "NR-ER",
+      "n_labeled": 540,
+      "n_positive": 96,
+      "n_negative": 444
+    },
+    {
+      "split": "validation",
+      "task": "NR-ER-LBD",
+      "n_labeled": 616,
+      "n_positive": 44,
+      "n_negative": 572
+    },
+    {
+      "split": "validation",
+      "task": "NR-PPAR-gamma",
+      "n_labeled": 560,
+      "n_positive": 20,
+      "n_negative": 540
+    },
+    {
+      "split": "validation",
+      "task": "SR-ARE",
+      "n_labeled": 508,
+      "n_positive": 92,
+      "n_negative": 416
+    },
+    {
+      "split": "validation",
+      "task": "SR-ATAD5",
+      "n_labeled": 625,
+      "n_positive": 33,
+      "n_negative": 592
+    },
+    {
+      "split": "validation",
+      "task": "SR-HSE",
+      "n_labeled": 574,
+      "n_positive": 38,
+      "n_negative": 536
+    },
+    {
+      "split": "validation",
+      "task": "SR-MMP",
+      "n_labeled": 494,
+      "n_positive": 84,
+      "n_negative": 410
+    },
+    {
+      "split": "validation",
+      "task": "SR-p53",
+      "n_labeled": 595,
+      "n_positive": 40,
+      "n_negative": 555
+    },
+    {
+      "split": "test",
+      "task": "NR-AR",
+      "n_labeled": 866,
+      "n_positive": 38,
+      "n_negative": 828
+    },
+    {
+      "split": "test",
+      "task": "NR-AR-LBD",
+      "n_labeled": 786,
+      "n_positive": 27,
+      "n_negative": 759
+    },
+    {
+      "split": "test",
+      "task": "NR-AhR",
+      "n_labeled": 768,
+      "n_positive": 74,
+      "n_negative": 694
+    },
+    {
+      "split": "test",
+      "task": "NR-Aromatase",
+      "n_labeled": 673,
+      "n_positive": 42,
+      "n_negative": 631
+    },
+    {
+      "split": "test",
+      "task": "NR-ER",
+      "n_labeled": 726,
+      "n_positive": 110,
+      "n_negative": 616
+    },
+    {
+      "split": "test",
+      "task": "NR-ER-LBD",
+      "n_labeled": 803,
+      "n_positive": 62,
+      "n_negative": 741
+    },
+    {
+      "split": "test",
+      "task": "NR-PPAR-gamma",
+      "n_labeled": 760,
+      "n_positive": 32,
+      "n_negative": 728
+    },
+    {
+      "split": "test",
+      "task": "SR-ARE",
+      "n_labeled": 662,
+      "n_positive": 142,
+      "n_negative": 520
+    },
+    {
+      "split": "test",
+      "task": "SR-ATAD5",
+      "n_labeled": 839,
+      "n_positive": 34,
+      "n_negative": 805
+    },
+    {
+      "split": "test",
+      "task": "SR-HSE",
+      "n_labeled": 748,
+      "n_positive": 46,
+      "n_negative": 702
+    },
+    {
+      "split": "test",
+      "task": "SR-MMP",
+      "n_labeled": 678,
+      "n_positive": 135,
+      "n_negative": 543
+    },
+    {
+      "split": "test",
+      "task": "SR-p53",
+      "n_labeled": 778,
+      "n_positive": 64,
+      "n_negative": 714
+    }
+  ],
+  "seed_results": [
+    {
+      "model": "Logistic_fingerprint",
+      "seed": 2026,
+      "fit_seconds": 0.8169264999451116,
+      "total_training_seconds": 0.8169264999451116,
+      "macro_average_precision": 0.2695681629629561,
+      "macro_roc_auc": 0.6947871302228519,
+      "best_epoch": NaN,
+      "pretrain_seconds": NaN,
+      "validation_macro_average_precision": NaN
+    },
+    {
+      "model": "Contrastive_MLP",
+      "seed": 17,
+      "fit_seconds": 4.093463299970608,
+      "total_training_seconds": 39.630140999972355,
+      "macro_average_precision": 0.3397373611540126,
+      "macro_roc_auc": 0.749406191075098,
+      "best_epoch": 9.0,
+      "pretrain_seconds": 35.536677700001746,
+      "validation_macro_average_precision": 0.5151765808011487
+    },
+    {
+      "model": "Supervised_MLP",
+      "seed": 17,
+      "fit_seconds": 4.093783799966332,
+      "total_training_seconds": 4.093783799966332,
+      "macro_average_precision": 0.298735649653318,
+      "macro_roc_auc": 0.7316512791001024,
+      "best_epoch": 9.0,
+      "pretrain_seconds": 0.0,
+      "validation_macro_average_precision": 0.49650483215299285
+    },
+    {
+      "model": "Contrastive_MLP",
+      "seed": 29,
+      "fit_seconds": 5.12929680000525,
+      "total_training_seconds": 40.5662003000034,
+      "macro_average_precision": 0.3225648306928451,
+      "macro_roc_auc": 0.7361011896956065,
+      "best_epoch": 14.0,
+      "pretrain_seconds": 35.43690349999815,
+      "validation_macro_average_precision": 0.5200028003975617
+    },
+    {
+      "model": "Supervised_MLP",
+      "seed": 29,
+      "fit_seconds": 3.3585586000117473,
+      "total_training_seconds": 3.3585586000117473,
+      "macro_average_precision": 0.31929253164657195,
+      "macro_roc_auc": 0.7478802492468576,
+      "best_epoch": 6.0,
+      "pretrain_seconds": 0.0,
+      "validation_macro_average_precision": 0.4967203799674112
+    },
+    {
+      "model": "Contrastive_MLP",
+      "seed": 43,
+      "fit_seconds": 4.623268399969675,
+      "total_training_seconds": 39.96114089991897,
+      "macro_average_precision": 0.3227662609052316,
+      "macro_roc_auc": 0.7426178288847479,
+      "best_epoch": 12.0,
+      "pretrain_seconds": 35.3378724999493,
+      "validation_macro_average_precision": 0.516469471598148
+    },
+    {
+      "model": "Supervised_MLP",
+      "seed": 43,
+      "fit_seconds": 5.112462899996899,
+      "total_training_seconds": 5.112462899996899,
+      "macro_average_precision": 0.291358872309137,
+      "macro_roc_auc": 0.7210386562955128,
+      "best_epoch": 14.0,
+      "pretrain_seconds": 0.0,
+      "validation_macro_average_precision": 0.49406424150452555
+    }
+  ],
+  "summary": [
+    {
+      "model": "Contrastive_MLP",
+      "mean_macro_ap": 0.3283561509173631,
+      "sd_macro_ap": 0.009856931742217108,
+      "mean_macro_auc": 0.7427084032184842,
+      "mean_fit_seconds": 4.615342833315178,
+      "mean_total_training_seconds": 40.052494066631574
+    },
+    {
+      "model": "Logistic_fingerprint",
+      "mean_macro_ap": 0.2695681629629561,
+      "sd_macro_ap": null,
+      "mean_macro_auc": 0.6947871302228519,
+      "mean_fit_seconds": 0.8169264999451116,
+      "mean_total_training_seconds": 0.8169264999451116
+    },
+    {
+      "model": "Supervised_MLP",
+      "mean_macro_ap": 0.30312901786967567,
+      "sd_macro_ap": 0.014475793387871463,
+      "mean_macro_auc": 0.7335233948808243,
+      "mean_fit_seconds": 4.188268433324993,
+      "mean_total_training_seconds": 4.188268433324993
+    }
+  ],
+  "ensemble_results": [
+    {
+      "model": "Contrastive_MLP",
+      "macro_average_precision": 0.33578075823798287,
+      "macro_roc_auc": 0.7513081583624192
+    },
+    {
+      "model": "Supervised_MLP",
+      "macro_average_precision": 0.30772395769206784,
+      "macro_roc_auc": 0.7442942813752621
+    },
+    {
+      "model": "Logistic_fingerprint",
+      "macro_average_precision": 0.2695681629629561,
+      "macro_roc_auc": 0.6947871302228519
+    }
+  ],
+  "bootstrap": [
+    {
+      "model_a": "Contrastive_MLP",
+      "model_b": "Supervised_MLP",
+      "macro_ap_difference": 0.028056800545915028,
+      "bootstrap_95_low": 0.012282209169036037,
+      "bootstrap_95_high": 0.04048520817181505,
+      "test_scaffolds": 615,
+      "replicates": 1000
+    },
+    {
+      "model_a": "Contrastive_MLP",
+      "model_b": "Logistic_fingerprint",
+      "macro_ap_difference": 0.06621259527502676,
+      "bootstrap_95_low": 0.03912450850290411,
+      "bootstrap_95_high": 0.095628969611155,
+      "test_scaffolds": 615,
+      "replicates": 1000
+    }
+  ],
+  "contrastive_pretraining": {
+    "train_only": true,
+    "augmentation": "independent 10% ECFP bit dropout views",
+    "temperature": 0.2,
+    "epochs": 80
+  },
+  "warnings": [],
+  "scope": "One in-vitro multi-assay dataset; scaffold split tests chemical-series transfer, not human or clinical toxicity."
+}

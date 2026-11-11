@@ -1,0 +1,5 @@
+model_a,model_b,macro_ap_difference,bootstrap_95_low,bootstrap_95_high,test_scaffolds,replicates,split
+Contrastive_MLP,Supervised_MLP,0.0311936372159847,0.0083392211893031,0.0522756412574965,615,1000,Split 1
+Contrastive_MLP,Logistic_fingerprint,0.0986944646545677,0.0543456748184024,0.1235377955089846,615,1000,Split 1
+Contrastive_MLP,Supervised_MLP,0.028056800545915,0.012282209169036,0.040485208171815,615,1000,Split 2
+Contrastive_MLP,Logistic_fingerprint,0.0662125952750267,0.0391245085029041,0.095628969611155,615,1000,Split 2

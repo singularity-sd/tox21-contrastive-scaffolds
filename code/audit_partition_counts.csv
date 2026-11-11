@@ -1,0 +1,7 @@
+split,compounds,scaffolds,unique_canonical_smiles,seed_test_validation
+Split 1,5955,3065,5955,2026/2054
+Split 1,776,419,776,2026/2054
+Split 1,1092,615,1092,2026/2054
+Split 2,6179,3065,6179,2028/2056
+Split 2,707,419,707,2028/2056
+Split 2,937,615,937,2028/2056

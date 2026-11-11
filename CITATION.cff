@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Contrastive pretraining on fingerprints improves Tox21 assay ranking for unseen chemical scaffolds"
+authors:
+  - name: "Singularity"
+year: 2026
+url: "https://github.com/singularity-sd/tox21-contrastive-scaffolds"
+license: MIT
